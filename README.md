@@ -8,8 +8,8 @@
 
 [![CBSE Grade 10 & 12](https://img.shields.io/badge/CBSE-Grade_10_%26_12-2D3A6E?style=for-the-badge&logo=google-classroom&logoColor=white)](https://cbse.gov.in)
 [![AI Stack](https://img.shields.io/badge/AI_Stack-Claude_+_MCP-E8453C?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
-[![Target Score](https://img.shields.io/badge/Target-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#-the-495-system)
-[![Skills](https://img.shields.io/badge/80%2B_Skills-Ready-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#-repository-layout)
+[![Target Score](https://img.shields.io/badge/Target-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#the-495-system)
+[![Skills](https://img.shields.io/badge/80%2B_Skills-Ready-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#repository-layout)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <br />
@@ -45,6 +45,7 @@ No manual switching. No copy-pasting prompts. It's agent chaining — one comman
 
 ---
 
+<a name="the-495-system"></a>
 ## 💎 Why Everything CBSE Code?
 
 In the high-stakes world of CBSE Board Exams, the difference between ** 95% ** and
@@ -175,7 +176,7 @@ everything-cbse-code/
 │   ├── agents/               (8 agents)      ← Practical-examiner, NEET, JEE...
 │   ├── commands/             (22 commands)    ← /derivation-drill, /neet-mcq...
 │   └── Prasanna-12/                          ← Senior Knowledge Vault
-│       └── Home.md                           ← Grade 12 Dashboard
+│       └──🏠 Home.md                           ← Grade 12 Dashboard
 │
 ├── 🛸 mcp-server/                            ← Unified MCP Brain
 │   ├── src/index.ts                          ← Server entry point

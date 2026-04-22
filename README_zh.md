@@ -8,8 +8,8 @@
 
 [![CBSE 十年级 & 十二年级](https://img.shields.io/badge/CBSE-十年级_%26_十二年级-2D3A6E?style=for-the-badge&logo=google-classroom&logoColor=white)](https://cbse.gov.in)
 [![AI 技术栈](https://img.shields.io/badge/AI_技术栈-Claude_+_MCP-E8453C?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
-[![目标分数](https://img.shields.io/badge/目标-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#-495-冲刺体系)
-[![技能模块](https://img.shields.io/badge/80%2B_技能-已就绪-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#-仓库结构)
+[![目标分数](https://img.shields.io/badge/目标-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#the-495-system)
+[![技能模块](https://img.shields.io/badge/80%2B_技能-已就绪-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#repository-layout)
 [![许可证: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <br />
@@ -45,6 +45,7 @@
 
 ---
 
+<a name="the-495-system"></a>
 ## 💎 为什么选择 Everything CBSE Code？
 
 在 CBSE 高考的高压世界中，**95%** 和 **99%** 之间的差距不仅仅是知识——而是**策略、精确度和评分方案的对齐**。
@@ -96,7 +97,7 @@ graph TD
 ```
 
 <div align="center">
-  <img src="./assets/ecc_ncert_library.png" alt="NCERT 数字图书馆 — AI 原生 ECC 版本" width="600" />
+  <img src="./assets/ecc_ncert_library.png" alt="NCERT 数字图书馆 — AI 原生 ECC 版本" width="500" />
   <br />
   <sub>十年级和十二年级的所有 NCERT 教科书 — 已索引、可搜索、由 MCP 服务器交叉引用。</sub>
 </div>
@@ -107,78 +108,133 @@ graph TD
 
 <table>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_wizard.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_wizard.png" width="90" /></td>
     <td><b>🧠 统一 MCP 智能</b><br/>自定义 stdio 服务器，将 80+ 技能和 200+ 个人笔记直接暴露给 Claude Desktop。一个服务器，两个年级，即时检索。</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_science_lab.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_science_lab.png" width="90" /></td>
     <td><b>🧪 NCERT 镜像科学引擎</b><br/>每次交互都与 NCERT 黄金标准进行交叉验证。答案格式完全按照阅卷官的期望排版——图表、方程式、标注步骤。</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_revision.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_revision.png" width="90" /></td>
     <td><b>📚 200+ 笔记复习库</b><br/>兼容 Obsidian 的知识库，包含原子笔记、Dataview 追踪器和间隔重复提示。不是信息堆砌——而是图谱可导航的学习系统。</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_high_scorer.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_high_scorer.png" width="90" /></td>
     <td><b>🏆 495+ 冲刺策略协议</b><br/>针对高权重主题的深度策略中心：微积分、有机化学、遗传学、地图作业、CBQ。每个主题都有专属的得分攻略手册。</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_architect.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_architect.png" width="90" /></td>
     <td><b>⌨️ 斜杠命令工作流</b><br/>两个年级共 42 条斜杠命令。一条命令触发多步骤工作流：<code>/practice</code>、<code>/mock-test</code>、<code>/mark-my-answer</code>、<code>/derivation-drill</code>。</td>
   </tr>
 </table>
 
 ---
 
-## 仓库结构
+<a name="repository-layout"></a>
+## 🏗️ 仓库架构详解
+
+Everything CBSE Code (ECC) 生态系统是一个高密度的智能层。以下是连接十年级、十二年级和 MCP 大脑的统一架构图。
 
 ```text
 everything-cbse-code/
 │
-├── 📘 10th/                                  ← 十年级生态系统
-│   ├── CBSE.md                               ← 主索引
-│   ├── AGENTS.md                             ← 智能体编排
-│   ├── rules/                (8 个文件)       ← 始终生效的防护规则
-│   ├── skills/               (48 项技能)      ← 学科专用智能模块
-│   │   ├── mathematics/                      ← 完整教学大纲 + 公式
-│   │   ├── science/                          ← 物理、化学、生物
-│   │   ├── social-science/                   ← 历史、地理、政治、经济
-│   │   ├── english/                          ← 文学与语法
-│   │   ├── tamil/                            ← 第 1–6 单元 + 语法
-│   │   ├── cbq-engine/                       ← 🔴 案例题（CBQ）精通
-│   │   ├── assertion-reason/                 ← 🔴 断言-推理决策矩阵
-│   │   ├── geography-maps/                   ← 🟢 5 分白送，50+ 地点
-│   │   ├── topper-patterns/                  ← 状元答题模板
-│   │   └── mistake-dna/                      ← 错误分析（C/R/P/X/A）
-│   ├── agents/               (7 个智能体)     ← 导师、阅卷官、评分器…
-│   ├── commands/             (20 条命令)      ← /practice, /mock-test 等
-│   └── Prasanna/                             ← Obsidian 知识库
-│       └── 🏠 Home.md                        ← 十年级仪表盘
+├── 📘 10th/                             ← 十年级备考生态 (Class 10)
+│   ├── CBSE.md                          ← 主索引
+│   ├── AGENTS.md                        ← 自主智能体编排大脑
+│   ├── rules/                           ← 始终生效的规则 (8 个)
+│   │   ├── accuracy.md                  ← NCERT 事实核查
+│   │   ├── agent-chaining.md                ← 智能体自动链式触发
+│   │   ├── answer-format.md             ← CBSE 答题结构
+│   │   ├── session-hooks.md                 ← 上下文加载钩子
+│   │   ├── subject-detection.md         ← 自动加载正确技能
+│   │   ├── teaching-style.md            ← 苏格拉底式教学
+│   │   └── word-budget.md                   ← 字数校准
+│   ├── skills/                          ← 48 项技能文件
+│   │   ├── mathematics/SKILL.md         ← 完整数学大纲 + 公式
+│   │   ├── science/
+│   │   │   ├── physics/SKILL.md         ← 光学、电学、磁学
+│   │   │   ├── chemistry/SKILL.md       ← 反应、酸碱盐、碳、金属
+│   │   │   └── biology/SKILL.md         ← 生命过程、遗传、环境
+│   │   ├── social-science/
+│   │   │   ├── history/SKILL.md         ← 民族主义、运动、印刷文化
+│   │   │   ├── geography/SKILL.md       ← 资源、农业、工业
+│   │   │   ├── political-science/SKILL.md ← 权力分享、联邦制、政党
+│   │   │   └── economics/SKILL.md       ← 发展、部门、全球化
+│   │   ├── english/SKILL.md             ← 文学与语法
+│   │   ├── tamil/SKILL.md               ← 第 1-6 单元 + 语法
+│   │   ├── cbq-engine/SKILL.md          ← 🔴 案例题 (CBQ) 精通
+│   │   ├── assertion-reason/SKILL.md    ← 🔴 断言-推理决策矩阵
+│   │   ├── geography-maps/SKILL.md      ← 🟢 5 分必拿 — 50+ 地图地点
+│   │   ├── mistake-dna/SKILL.md         ← 错误原因分析 (C/R/P/X/A)
+│   │   ├── topper-patterns/SKILL.md     ← 状元答题模板
+│   │   └── [其他 30 项技能]              ← 时间管理、IA 优化等
+│   ├── agents/                          ← 7 个智能体
+│   │   ├── tutor.md                         ← 苏格拉底式学科导师
+│   │   ├── examiner.md                      ← CBSE 风格试题生成器
+│   │   ├── evaluator.md                     ← 评分方案阅卷官
+│   │   ├── math-step-evaluator.md           ← 数学步骤分评估器
+│   │   └── weak-spotter.md                  ← 薄弱点识别专家
+│   ├── commands/                        ← 20 条命令
+│   │   ├── practice.md                      ← /practice
+│   │   ├── mock-test.md                     ← /mock-test
+│   │   ├── cbq-drill.md                     ← /cbq-drill
+│   │   └── ncertify.md                      ← /ncertify (NCERT 检查)
+│   └── Prasanna/                        ← Obsidian 知识库
+│       ├── Math/                        # 14 条章节笔记
+│       ├── Science/                     # 13 条物化生笔记
+│       ├── SST/                         # 21 条史地政经笔记
+│       └── 🏠 Home.md                   ← 十年级主仪表盘
 │
-├── 📙 12th/                                  ← 十二年级生态系统
-│   ├── CBSE12.md                             ← 主索引
-│   ├── AGENTS.md                             ← 智能体编排
-│   ├── rules/                (8 个文件)       ← 推导优先、检测等规则
-│   ├── skills/               (35+ 项技能)     ← PCMB 与 PCMC 专用
-│   │   ├── shared/                           ← 物理、化学、数学
-│   │   ├── pcmb/                             ← 生物 + NEET 策略
-│   │   ├── pcmc/                             ← 计算机科学 + JEE 策略
-│   │   ├── common/                           ← 英语、CBQ、推导
-│   │   ├── derivation-bank/                  ← 证明推导总库
-│   │   └── practical-guide/                  ← 30 分实验/口试备考
-│   ├── agents/               (8 个智能体)     ← 实验考官、NEET、JEE…
-│   ├── commands/             (22 条命令)      ← /derivation-drill, /neet-mcq…
-│   └── Prasanna-12/                          ← 高年级知识库
-│       └── Home.md                           ← 十二年级仪表盘
+├── 📙 12th/                             ← 十二年级备考生态 (PCMB/PCMC)
+│   ├── CBSE12.md                        ← 主索引
+│   ├── AGENTS.md                        ← 自主智能体编排大脑
+│   ├── rules/                           ← 始终生效的规则 (8 个)
+│   │   ├── derivation-first.md          ← 推导与证明优先
+│   │   ├── subject-detection.md         ← 分流识别 (PCMB/PCMC)
+│   │   └── [其他 6 条规则]               ← 准确性、钩子、风格等
+│   ├── skills/                          ← 35+ 项专用技能
+│   │   ├── shared/                      ← 物理、化学、数学
+│   │   ├── pcmb/                            ← 生物 + NEET 策略
+│   │   ├── pcmc/                            ← 计算机科学 + JEE 策略
+│   │   ├── common/                          ← 英语、CBQ、推导
+│   │   ├── derivation-bank/SKILL.md     ← 证明推导总库
+│   │   ├── practical-guide/SKILL.md     ← 30 分实验与口试指南
+│   │   └── topper-patterns/SKILL.md     ← 状元答题模板
+│   ├── agents/                          ← 8 个智能体
+│   │   ├── practical-examiner.md            ← 口试与实验考官
+│   │   ├── neet-drill.md                    ← NEET 题型生成器
+│   │   ├── jee-drill.md                     ← JEE 题型生成器
+│   │   └── [其他 5 个智能体]               ← 导师、考官、评分官等
+│   ├── commands/                        ← 22 条命令
+│   │   ├── derivation-drill.md              ← /derivation-drill
+│   │   ├── neet-mcq.md                      ← /neet-mcq
+│   │   ├── jee-mcq.md                       ← /jee-mcq
+│   │   └── [其他 19 条命令]                ← 练习、模拟、报告等
+│   └── Prasanna-12/                     ← 高年级知识库
+│       ├── Physics/                     # 高密度章节笔记
+│       ├── Chemistry/                   # 有机/无机/物理化学
+│       └── Home.md                      ← 十二年级主仪表盘
 │
-├── 🛸 mcp-server/                            ← 统一 MCP 大脑
-│   ├── src/index.ts                          ← 服务器入口
-│   ├── src/server.ts                         ← 多年级路由逻辑
-│   ├── src/lib/                              ← 索引器与安全模块
-│   └── src/tools/                            ← 年级感知工具集
+├── 🛸 mcp-server/                       ← 统一 MCP 大脑 (Node.js/TS)
+│   ├── src/                             # TypeScript 源码
+│   │   ├── index.ts                     ← 服务器入口 (Stdio 传输)
+│   │   ├── server.ts                    ← 多年级路由逻辑
+│   │   ├── lib/                         ← 核心智能模块
+│   │   │   ├── indexer.ts               ← 分层模糊索引器
+│   │   │   └── fs.ts                    ← 安全路径解析器
+│   │   └── tools/                       ← 年级感知工具集
+│   │       ├── core.ts                  ← 资源管理
+│   │       ├── skills.ts                ← 技能查找与打包
+│   │       ├── agents.ts                ← 智能体人格注入
+│   │       ├── commands.ts              ← 工作流编排
+│   │       ├── notes.ts                 ← 知识库检索引擎
+│   │       └── search.ts                ← 语义搜索接口
+│   ├── package.json                     ← SDK 与构建依赖
+│   └── tsconfig.json                    ← TypeScript 配置
 │
-├── 📖 README.md                              ← 英文文档
-└── 📖 README_zh.md                           ← 你在这里（中文文档）
+├── 📖 README.md                         ← 英文文档
+└── 📖 README_zh.md                      ← 你在这里
 ```
 
 ---
