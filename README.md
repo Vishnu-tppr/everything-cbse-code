@@ -10,7 +10,9 @@
 [![AI Stack](https://img.shields.io/badge/AI_Stack-Claude_+_MCP-E8453C?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
 [![Target Score](https://img.shields.io/badge/Target-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#the-495-system)
 [![Skills](https://img.shields.io/badge/80%2B_Skills-Ready-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#repository-layout)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
+[![Contributing](https://img.shields.io/badge/Contributing-Guidelines-orange?style=for-the-badge)](./CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Standard-blue?style=for-the-badge)](./CODE_OF_CONDUCT.md)
 
 <br />
 

@@ -10,7 +10,9 @@
 [![AI 技术栈](https://img.shields.io/badge/AI_技术栈-Claude_+_MCP-E8453C?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
 [![目标分数](https://img.shields.io/badge/目标-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#the-495-system)
 [![技能模块](https://img.shields.io/badge/80%2B_技能-已就绪-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#repository-layout)
-[![许可证: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![许可证: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
+[![贡献指南](https://img.shields.io/badge/贡献-指南-orange?style=for-the-badge)](./CONTRIBUTING.md)
+[![行为准则](https://img.shields.io/badge/行为准则-标准-blue?style=for-the-badge)](./CODE_OF_CONDUCT.md)
 
 <br />
 
