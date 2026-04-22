@@ -48,18 +48,18 @@ No manual switching. No copy-pasting prompts. It's agent chaining — one comman
 <a name="the-495-system"></a>
 ## 💎 Why Everything CBSE Code?
 
-In the high-stakes world of CBSE Board Exams, the difference between ** 95% ** and
-** 99% ** isn't just knowledge-it's ** strategy, precision, and marking-scheme
-alignment **.
+In the high-stakes world of CBSE Board Exams, the difference between **95%** and
+**99%** isn't just knowledge-it's **strategy, precision, and marking-scheme
+alignment**.
 
 ** Everything CBSE Code (ECC) ** is a high-density, agentic framework designed for
-students aiming for the ** Top 0.1% **. It bridges the gap between raw NCERT
-content and professional examiner expectations using the ** Model Context
-Protocol (MCP) ** and ** Autonomous Agent Chaining **.
+students aiming for the **Top 0.1%**. It bridges the gap between raw NCERT
+content and professional examiner expectations using the **Model Context
+Protocol (MCP)** and **Autonomous Agent Chaining**.
 
 [!IMPORTANT]
-> ** ECC is not just a study tool; it's a "Second Brain" calibrated to the CBSE
-DNA. **
+> **ECC is not just a study tool; it's a "Second Brain" calibrated to the CBSE
+DNA.**
 
 The gap between 95% and 99% in CBSE isn't knowledge. It's three things:
 
