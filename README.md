@@ -8,13 +8,13 @@
 
 [![CBSE Grade 10 & 12](https://img.shields.io/badge/CBSE-Grade_10_%26_12-2D3A6E?style=for-the-badge&logo=google-classroom&logoColor=white)](https://cbse.gov.in)
 [![AI Stack](https://img.shields.io/badge/AI_Stack-Claude_+_MCP-E8453C?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
-[![Target Score](https://img.shields.io/badge/Target-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#-the-495-system)
-[![Skills](https://img.shields.io/badge/80%2B_Skills-Ready-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#-repository-layout)
+[![Target Score](https://img.shields.io/badge/Target-495%2B_/_500-1DB954?style=for-the-badge&logo=target&logoColor=white)](#the-495-system)
+[![Skills](https://img.shields.io/badge/80%2B_Skills-Ready-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](#repository-layout)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <br />
 
-<img src="./assets/everything_cbse_hero_1776840974301.png" alt="Everything CBSE Code — AI-Native Board Exam Command Center" width="100%" />
+<img src="./assets/everything_cbse_hero_1776840974301.png" alt="Everything CBSE Code — AI-Native Board Exam Command Center" width="600" />
 
 <br />
 
@@ -40,11 +40,12 @@ No manual switching. No copy-pasting prompts. It's agent chaining — one comman
 <div align="center">
   <img src="./assets/claw_architect.png" alt="Claw the Architect — Coding & System Design" width="260" />
   <br />
-  <sub><b>"The Architect"</b> — Building the intelligence layer.</sub>
+  <sub><b>Claw "The Architect"</b> — Building the intelligence layer, one skill at a time.</sub>
 </div>
 
 ---
 
+<a name="the-495-system"></a>
 ## 💎 Why Everything CBSE Code?
 
 In the high-stakes world of CBSE Board Exams, the difference between ** 95% ** and
@@ -102,7 +103,7 @@ graph TD
 ```
 
 <div align="center">
-  <img src="./assets/ecc_ncert_library.png" alt="NCERT Digital Library — AI-Native ECC Edition" width="600" />
+  <img src="./assets/ecc_ncert_library.png" alt="NCERT Digital Library — AI-Native ECC Edition" width="500" />
   <br />
   <sub>Every NCERT textbook for Class 10 & 12 — indexed, searchable, and cross-referenced by the MCP server.</sub>
 </div>
@@ -113,23 +114,23 @@ graph TD
 
 <table>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_wizard.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_wizard.png" width="90" /></td>
     <td><b>🧠 Unified MCP Intelligence</b><br/>A custom stdio server exposing 80+ skills and 200+ personal notes directly to Claude Desktop. One server, both grades, instant retrieval.</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_science_lab.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_science_lab.png" width="90" /></td>
     <td><b>🧪 NCERT-Mirror Science Engine</b><br/>Every interaction cross-referenced against NCERT gold standards. Answers formatted exactly how examiners expect — diagrams, equations, labeled steps.</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_revision.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_revision.png" width="90" /></td>
     <td><b>📚 200+ Note Revision Vault</b><br/>An Obsidian-compatible knowledge vault with atomic notes, Dataview trackers, and spaced-repetition cues. Not a brain dump — a graph-navigable study system.</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_high_scorer.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_high_scorer.png" width="90" /></td>
     <td><b>🏆 495+ Strategy Protocols</b><br/>Deep-dive strategy hubs for high-weightage topics: Calculus, Organic Chemistry, Genetics, Map Work, CBQs. Each with dedicated scoring playbooks.</td>
   </tr>
   <tr>
-    <td width="80" align="center"><img src="./assets/claw_architect.png" width="70" /></td>
+    <td width="100" align="center"><img src="./assets/claw_architect.png" width="90" /></td>
     <td><b>⌨️ Slash-Command Workflows</b><br/>42 slash commands across both grades. One command triggers multi-step workflows: <code>/practice</code>, <code>/mock-test</code>, <code>/mark-my-answer</code>, <code>/derivation-drill</code>.</td>
   </tr>
 </table>
