@@ -2,7 +2,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-// Resolve REPO_ROOT: everything-cbse-code/mcp-server/cbse-12th/src/lib/fs.ts → up 4 levels, then into 12th/
+// Resolve REPO_ROOT: everything-cbse-board/mcp-server/ecb-12/src/lib/fs.ts → up 4 levels, then into 12th/
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 export const REPO_ROOT = path.resolve(__dirname, '..', '..', '..', '..', '12th');
@@ -14,7 +14,7 @@ if (!fs.existsSync(markerFile)) {
     `[cbse-12th-mcp] FATAL: REPO_ROOT does not contain CBSE12.md.\n` +
     `  Resolved to: ${REPO_ROOT}\n` +
     `  Expected marker file: ${markerFile}\n` +
-    `  Fix: ensure mcp-server/cbse-12th is inside everything-cbse-code/mcp-server/\n`
+    `  Fix: ensure mcp-server/ecb-12 is inside everything-cbse-board/mcp-server/\n`
   );
   process.exit(1);
 }
@@ -62,3 +62,4 @@ export function safeIsDir(relativePath: string): boolean {
   }
   return fs.existsSync(resolved) && fs.statSync(resolved).isDirectory();
 }
+

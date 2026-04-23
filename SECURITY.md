@@ -24,4 +24,5 @@ We take the security of this project seriously. If you find a security vulnerabi
 - Data leaks or privacy concerns.
 - Malicious skill or agent definitions.
 
-Thank you for helping keep the ECC-10 & ECC-12 community safe!
+Thank you for helping keep the ECB-10 & ECB-12 community safe!
+

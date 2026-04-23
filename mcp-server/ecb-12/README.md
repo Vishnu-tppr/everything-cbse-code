@@ -15,10 +15,10 @@ Add the following to your `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "ecc-12": {
+    "ECB-12": {
       "command": "node",
       "args": [
-        "D:/everything-cbse-code/mcp-server/ecc-12/dist/index.js"
+        "D:/everything-cbse-board/mcp-server/ECB-12/dist/index.js"
       ]
     }
   }
@@ -29,3 +29,4 @@ Add the following to your `claude_desktop_config.json`:
 1. `cd mcp-server`
 2. `npm install`
 3. `npm run build`
+

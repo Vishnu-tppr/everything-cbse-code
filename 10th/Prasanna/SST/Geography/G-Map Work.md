@@ -62,7 +62,7 @@ tags: [sst, geography, map-work, high-yield]
 
 ### Soil Types (shade on map)
 
-- Alluvial (Indo-Gangetic), Black (Deccan), Red (S. Plateau)
+- Alluvial (Indo-Gangetic), Black (DECBan), Red (S. Plateau)
 - Laterite (W. Ghats), Arid (Rajasthan)
 
 ## Study Strategy
@@ -83,3 +83,4 @@ tags: [sst, geography, map-work, high-yield]
 - [[G-Ch07 - Lifelines of National Economy]] — ports, roads
 
 #geography #map-work #high-yield #memorize
+

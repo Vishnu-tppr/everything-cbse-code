@@ -6,11 +6,11 @@ description: >-
 
 # CBSE 12th Tools — Board Exam Preparation System
 
-CBSE 12th Tools is a structured, ECC-style (Everything Claude Code) skill/agent/command ecosystem designed for CBSE Grade 12 Board Exam preparation (Batch 2026-27). It provides AI-powered tutoring, question generation, answer evaluation, and specialized support for both **PCMB** (Medical) and **PCMC** (Engineering) streams. The target: **495+ out of 500**.
+CBSE 12th Tools is a structured, ECB-style (Everything Claude Code) skill/agent/command ecosystem designed for CBSE Grade 12 Board Exam preparation (Batch 2026-27). It provides AI-powered tutoring, question generation, answer evaluation, and specialized support for both **PCMB** (Medical) and **PCMC** (Engineering) streams. The target: **495+ out of 500**.
 
 ## Autonomous Operation
 
-This system operates autonomously — just like ECC. You don't need to manually invoke agents or load skills. The system:
+This system operates autonomously — just like ECB. You don't need to manually invoke agents or load skills. The system:
 
 1. **Auto-detects the subject** from your question (keywords, chapter names, concepts).
 2. **Auto-loads the right skill** (formulas, derivations, marking schemes from SKILL.md files).
@@ -157,3 +157,4 @@ cbse-12th-tools/
 - **100% keyword coverage** in Organic mechanisms and Biology descriptions.
 - Completion of all **Mandatory Derivations** with 0 memory leaks.
 - **Final Target:** **495+ out of 500** in CBSE 2027 Board Exam.
+

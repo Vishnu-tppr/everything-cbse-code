@@ -1,4 +1,4 @@
-# 🎓 Everything CBSE Code (ECC)
+# 🎓 Everything CBSE Code (ECB)
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 <br />
 
-<img src="./assets/everything_cbse_hero_1776840974301.png" alt="Everything CBSE Code — AI-Native Board Exam Command Center" width="600" />
+<img src="./assets/everything_cbse_board_hero.png" alt="Everything CBSE Board — AI-Native Board Exam Command Center" width="600" />
 
 <br />
 
@@ -42,7 +42,7 @@ No manual switching. No copy-pasting prompts. It's agent chaining — one comman
 <div align="center">
   <img src="./assets/claw_architect.png" alt="Claw the Architect — Coding & System Design" width="260" />
   <br />
-  <sub>Building the intelligence layer for ECC-10 & ECC-12</sub>
+  <sub>Building the intelligence layer for ecb-10 & ecb-12</sub>
 </div>
 
 ---
@@ -54,18 +54,18 @@ In the high-stakes world of CBSE Board Exams, the difference between **95%** and
 **99%** isn't just knowledge-it's **strategy, precision, and marking-scheme
 alignment**.
 
-**Everything CBSE Code (ECC)** is a high-density, agentic framework designed for
+**Everything CBSE Code (ECB)** is a high-density, agentic framework designed for
 students aiming for the **Top 0.1%**. It bridges the gap between raw NCERT
 content and professional examiner expectations using the **Model Context
 Protocol (MCP)** and **Autonomous Agent Chaining**.
 
 >[!IMPORTANT]
-> **ECC is not just a study tool; it's a "Second Brain" calibrated to the CBSE
+> **ECB is not just a study tool; it's a "Second Brain" calibrated to the CBSE
 DNA.**
 
 The gap between 95% and 99% in CBSE isn't knowledge. It's three things:
 
-| Pain Point | What Students Do | What ECC Does |
+| Pain Point | What Students Do | What ECB Does |
 | :--- | :--- | :--- |
 | **Careless errors** | "I'll be more careful next time" | Runs a 5-type error DNA classifier (Conceptual / Reading / Procedural / Exam-pressure / Attention) |
 | **CBQ paralysis** | Reads the passage, panics, writes too much | Dedicated CBQ Engine with a 4-step decode framework for the 50% case-based paper |
@@ -82,7 +82,7 @@ The gap between 95% and 99% in CBSE isn't knowledge. It's three things:
 
 ## System Architecture
 
-ECC uses the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) to expose 80+ skills directly to Claude Desktop through a local stdio server. No API keys. No cloud dependency. Everything runs on your machine.
+ECB uses the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) to expose 80+ skills directly to Claude Desktop through a local stdio server. No API keys. No cloud dependency. Everything runs on your machine.
 
 ```mermaid
 graph TD
@@ -105,7 +105,7 @@ graph TD
 ```
 
 <div align="center">
-  <img src="./assets/ecc_ncert_library.png" alt="NCERT Digital Library — AI-Native ECC Edition" width="500" />
+  <img src="./assets/ecb_ncert_library.png" alt="NCERT Digital Library — AI-Native ECB Edition" width="500" />
   <br />
   <sub>Every NCERT textbook for Class 10 & 12 — indexed, searchable, and cross-referenced by the MCP server.</sub>
 </div>
@@ -142,7 +142,7 @@ graph TD
 ## Repository Layout
 
 ```text
-everything-cbse-code/
+everything-cbse-board/
 │
 ├── 📘 10th/                                  ← Grade 10 Ecosystem
 │   ├── CBSE.md                               ← Master Index
@@ -200,8 +200,8 @@ Three steps. Under 2 minutes.
 
 ```bash
 # Clone and build the brain
-git clone https://github.com/vishnu-tppr/everything-cbse-code.git
-cd everything-cbse-code/mcp-server
+git clone https://github.com/vishnu-tppr/everything-cbse-board.git
+cd everything-cbse-board/mcp-server
 npm install && npm run build
 ```
 
@@ -214,7 +214,7 @@ Add to `%APPDATA%\Claude\claude_desktop_config.json`:
   "mcpServers": {
     "everything-cbse": {
       "command": "node",
-      "args": ["C:/PATH/TO/everything-cbse-code/mcp-server/dist/index.js"]
+      "args": ["C:/PATH/TO/everything-cbse-board/mcp-server/dist/index.js"]
     }
   }
 }
@@ -291,7 +291,7 @@ A sample of the 42 slash commands available:
 
 ## For Developers & Contributors
 
-ECC is fully open source. The MCP server is built with:
+ECB is fully open source. The MCP server is built with:
 
 - **Runtime**: Node.js 20+ with TypeScript
 - **MCP SDK**: `@modelcontextprotocol/sdk` (latest)
@@ -338,7 +338,8 @@ If this repo helps you gain even **1 extra mark** on your boards, a ⭐ is the b
 
 <br />
 
-[![Made in India](https://img.shields.io/badge/Made_with_🧡_in-India-FF9933?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-code)
-[![Star This Repo](https://img.shields.io/badge/⭐_Star_This_Repo-If_It_Helped-FFD700?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-code)
+[![Made in India](https://img.shields.io/badge/Made_with_🧡_in-India-FF9933?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-board)
+[![Star This Repo](https://img.shields.io/badge/⭐_Star_This_Repo-If_It_Helped-FFD700?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-board)
 
 </div>
+

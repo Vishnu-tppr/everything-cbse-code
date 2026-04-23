@@ -1,18 +1,18 @@
 ---
 name: session-hooks
 description: >-
-  Session Hooks - ECC-Style Lifecycle Automation
+  Session Hooks - ECB-Style Lifecycle Automation
 ---
 
-# Session Hooks — ECC-Style Lifecycle Automation
+# Session Hooks — ECB-Style Lifecycle Automation
 
-## What ECC Does (and CBSE Tools Must Mirror)
+## What ECB Does (and CBSE Tools Must Mirror)
 
-ECC has event-driven hooks that fire automatically at lifecycle boundaries.
+ECB has event-driven hooks that fire automatically at lifecycle boundaries.
 CBSE Tools must do the same — NO manual invocation needed.
 
 ```
-ECC Pattern:
+ECB Pattern:
   SessionStart → Load context, detect environment
   PostToolUse  → Auto-format, type-check, quality gate
   Stop         → Save state, evaluate patterns, track cost
@@ -196,7 +196,7 @@ WITHOUT hooks (manual mode):
   AI: [suggests chapters]
   → 6 manual interactions for 1 concept
 
-WITH hooks (autonomous mode — like ECC):
+WITH hooks (autonomous mode — like ECB):
   Student: "Explain electricity"
   AI: [explains electricity]
       + [auto: concept check Q]
@@ -211,3 +211,4 @@ WITH hooks (autonomous mode — like ECC):
       + [auto: "📚 Similar problem: RD Sharma Ch 12, Q14"]
   → 2 interactions cover everything — system does the rest
 ```
+

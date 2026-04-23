@@ -1,11 +1,11 @@
-# Contributing to Everything CBSE Code (ECC)
+# Contributing to Everything CBSE Code (ECB)
 
-First off, thank you for considering contributing to Everything CBSE Code! It's people like you that make ECC a great tool for students across the country.
+First off, thank you for considering contributing to Everything CBSE Code! It's people like you that make ECB a great tool for students across the country.
 
 ## How Can I Contribute?
 
 ### 🧪 Adding New Skills
-The heart of ECC lies in its `SKILL.md` files. If you have deep knowledge of a specific CBSE chapter or topic:
+The heart of ECB lies in its `SKILL.md` files. If you have deep knowledge of a specific CBSE chapter or topic:
 1. Navigate to the appropriate grade folder (`10th` or `12th`).
 2. Create a new directory for the chapter/topic under `skills/`.
 3. Add a `SKILL.md` file following the existing template (NCERT-aligned facts, keywords, and common mistakes).
@@ -42,3 +42,4 @@ If you're a developer:
 ## Questions?
 
 Feel free to open an issue or reach out to the project maintainers!
+

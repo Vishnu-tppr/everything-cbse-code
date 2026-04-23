@@ -38,8 +38,8 @@ description: >-
 | Soil Type | Region | Features | Crops |
 |-----------|--------|----------|-------|
 | Alluvial | Northern Plains, River deltas | Fertile, rich in potash | Rice, wheat, sugarcane |
-| Black (Regur) | Deccan Plateau (Maharashtra, MP, Gujarat) | Moisture retentive, rich in iron, lime | Cotton |
-| Red & Yellow | Eastern Deccan, Odisha, Chhattisgarh | Iron oxide gives red colour | Groundnut, millets |
+| Black (Regur) | DECBan Plateau (Maharashtra, MP, Gujarat) | Moisture retentive, rich in iron, lime | Cotton |
+| Red & Yellow | Eastern DECBan, Odisha, Chhattisgarh | Iron oxide gives red colour | Groundnut, millets |
 | Laterite | Western Ghats, NE hills | Result of leaching, poor fertility | Tea, coffee, cashew |
 | Arid/Desert | Rajasthan, Gujarat | Sandy, low moisture, high salt | Only with irrigation |
 | Forest/Mountain | Hilly areas | Rich humus, acidic | Tea, spices, fruits |
@@ -233,3 +233,4 @@ AIRPORTS: Major airports in metros
 - **NCERT** — Complete every in-text question and map exercise
 - **Oswaal** — Map work practice sheets
 - **Atlas** — Keep India map nearby while studying
+

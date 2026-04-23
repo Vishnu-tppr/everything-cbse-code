@@ -115,7 +115,7 @@ ENGLISH CORE: Flamingo, Vistas, Indigo, Rattrap, Aunt Jennifer, Tiger,
 | **Vocabulary** | skills/keyword-bank/SKILL.md | Scoring high with examiner keywords. |
 | **Strategy** | skills/exam-strategy/SKILL.md | The 495+ Board Exam blueprint. |
 
-## Lifecycle Hooks (ECC-Style Automation)
+## Lifecycle Hooks (ECB-Style Automation)
 
 ### SessionStart Hook
 1. **Context Load:** Identify current stream (PCMB/PCMC).
@@ -139,3 +139,4 @@ ENGLISH CORE: Flamingo, Vistas, Indigo, Rattrap, Aunt Jennifer, Tiger,
 - **Case-Study (CBQ) Success Rate** at **>90%**.
 - **Practical Exams Prep:** 30/30 internal marks secured.
 - **Final Target:** **495+ out of 500** in CBSE 2027 Boards.
+

@@ -256,7 +256,7 @@ After EVERY wrong answer, classify the mistake as: Conceptual (C), Recall (R), P
 ### Rule 12: NCERT-First + Keyword Check
 Every answer must use NCERT language and keywords. Auto-run ncert-mirror + keyword-bank checks on evaluated answers. Flag missing examiner-expected terms.
 
-## Lifecycle Hooks (ECC-Style Event Automation)
+## Lifecycle Hooks (ECB-Style Event Automation)
 
 See `rules/session-hooks.md` for full specification.
 
@@ -322,3 +322,4 @@ EVERY INTERACTION that mentions a chapter:
 - IA score: 20/20 in all 5 subjects (100/100 total)
 - Student completes revision plan on schedule
 - Final target: **495+ out of 500** in CBSE 2027 Board Exam
+

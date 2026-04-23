@@ -1,4 +1,4 @@
-# 🎓 Everything CBSE Code (ECC)
+# 🎓 Everything CBSE Code (ECB)
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 <br />
 
-<img src="./assets/everything_cbse_hero_1776840974301.png" alt="Everything CBSE Code — AI 原生考试指挥中心" width="600" />
+<img src="./assets/everything_cbse_board_hero.png" alt="Everything CBSE Board — AI 原生考试指挥中心" width="600" />
 
 <br />
 
@@ -52,14 +52,14 @@
 
 在 CBSE 高考的高压世界中，**95%** 和 **99%** 之间的差距不仅仅是知识——而是**策略、精确度和评分方案的对齐**。
 
-**Everything CBSE Code (ECC)** 是一个高密度的智能体驱动框架，专为冲击**前 0.1%** 的学生设计。它利用**模型上下文协议（MCP）**和**自主智能体链**，弥合原始 NCERT 内容与专业阅卷官期望之间的鸿沟。
+**Everything CBSE Code (ECB)** 是一个高密度的智能体驱动框架，专为冲击**前 0.1%** 的学生设计。它利用**模型上下文协议（MCP）**和**自主智能体链**，弥合原始 NCERT 内容与专业阅卷官期望之间的鸿沟。
 
 >[!IMPORTANT]
-> **ECC 不仅仅是学习工具；它是一个校准到 CBSE 基因的「第二大脑」。**
+> **ECB 不仅仅是学习工具；它是一个校准到 CBSE 基因的「第二大脑」。**
 
 在 CBSE 中，95% 和 99% 之间的差距不是知识，而是三件事：
 
-| 痛点 | 学生通常怎么做 | ECC 怎么做 |
+| 痛点 | 学生通常怎么做 | ECB 怎么做 |
 | :--- | :--- | :--- |
 | **粗心错误** | "下次我会更仔细的" | 运行 5 类错误 DNA 分类器（概念/审题/流程/考试压力/注意力） |
 | **CBQ（案例题）恐惧症** | 读材料、慌张、写太多 | 专用 CBQ 引擎，采用 4 步解码框架应对 50% 的案例题 |
@@ -76,7 +76,7 @@
 
 ## 系统架构
 
-ECC 使用[模型上下文协议（MCP）](https://modelcontextprotocol.io/)通过本地 stdio 服务器将 80+ 技能直接暴露给 Claude Desktop。无需 API 密钥。无需云依赖。一切在你的机器上运行。
+ECB 使用[模型上下文协议（MCP）](https://modelcontextprotocol.io/)通过本地 stdio 服务器将 80+ 技能直接暴露给 Claude Desktop。无需 API 密钥。无需云依赖。一切在你的机器上运行。
 
 ```mermaid
 graph TD
@@ -99,7 +99,7 @@ graph TD
 ```
 
 <div align="center">
-  <img src="./assets/ecc_ncert_library.png" alt="NCERT 数字图书馆 — AI 原生 ECC 版本" width="500" />
+  <img src="./assets/ecb_ncert_library.png" alt="NCERT 数字图书馆 — AI 原生 ECB 版本" width="500" />
   <br />
   <sub>十年级和十二年级的所有 NCERT 教科书 — 已索引、可搜索、由 MCP 服务器交叉引用。</sub>
 </div>
@@ -136,10 +136,10 @@ graph TD
 <a name="repository-layout"></a>
 ## 🏗️ 仓库架构详解
 
-Everything CBSE Code (ECC) 生态系统是一个高密度的智能层。以下是连接十年级、十二年级和 MCP 大脑的统一架构图。
+Everything CBSE Code (ECB) 生态系统是一个高密度的智能层。以下是连接十年级、十二年级和 MCP 大脑的统一架构图。
 
 ```text
-everything-cbse-code/
+everything-cbse-board/
 │
 ├── 📘 10th/                             ← 十年级备考生态 (Class 10)
 │   ├── CBSE.md                          ← 主索引
@@ -249,8 +249,8 @@ everything-cbse-code/
 
 ```bash
 # 克隆并构建大脑
-git clone https://github.com/vishnu-tppr/everything-cbse-code.git
-cd everything-cbse-code/mcp-server
+git clone https://github.com/vishnu-tppr/everything-cbse-board.git
+cd everything-cbse-board/mcp-server
 npm install && npm run build
 ```
 
@@ -263,7 +263,7 @@ npm install && npm run build
   "mcpServers": {
     "everything-cbse": {
       "command": "node",
-      "args": ["C:/PATH/TO/everything-cbse-code/mcp-server/dist/index.js"]
+      "args": ["C:/PATH/TO/everything-cbse-board/mcp-server/dist/index.js"]
     }
   }
 }
@@ -340,7 +340,7 @@ npm install && npm run build
 
 ## 面向开发者与贡献者
 
-ECC 完全开源。MCP 服务器的技术栈：
+ECB 完全开源。MCP 服务器的技术栈：
 
 - **运行时**: Node.js 20+ 搭配 TypeScript
 - **MCP SDK**: `@modelcontextprotocol/sdk`（最新版）
@@ -387,7 +387,8 @@ mcp-server/
 
 <br />
 
-[![印度制造](https://img.shields.io/badge/用_🧡_制造于-印度-FF9933?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-code)
-[![Star 此仓库](https://img.shields.io/badge/⭐_Star_此仓库-如果有帮助-FFD700?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-code)
+[![印度制造](https://img.shields.io/badge/用_🧡_制造于-印度-FF9933?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-board)
+[![Star 此仓库](https://img.shields.io/badge/⭐_Star_此仓库-如果有帮助-FFD700?style=for-the-badge)](https://github.com/vishnu-tppr/everything-cbse-board)
 
 </div>
+

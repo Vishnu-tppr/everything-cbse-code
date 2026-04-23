@@ -1,4 +1,4 @@
-# 📘 Grade 10 Board Exam Ecosystem (ECC-10)
+# 📘 Grade 10 Board Exam Ecosystem (ECB-10)
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 
 <br />
 
-<img src="../assets/everything_cbse_hero_1776840974301.png" alt="ECC 10th — Junior Board Exam Command Center" width="600" />
+<img src="../assets/everything_cbse_board_hero.png" alt="ECB 10th — Junior Board Exam Command Center" width="600" />
 
 <br />
 
@@ -26,11 +26,11 @@
 <a name="the-junior-advantage"></a>
 ## 💎 The Junior Advantage (Class 10)
 
-Grade 10 is the foundation. ECC-10 focuses on **NCERT language compliance, CBQ mastery, and exam-hall simulation**. It’s designed to turn average answers into topper-grade responses by aligning with the latest CBSE marking schemes.
+Grade 10 is the foundation. ECB-10 focuses on **NCERT language compliance, CBQ mastery, and exam-hall simulation**. It’s designed to turn average answers into topper-grade responses by aligning with the latest CBSE marking schemes.
 
-### Why ECC-10?
+### Why ECB-10?
 
-| The Junior Challenge | ECC-10 Solution |
+| The Junior Challenge | ECB-10 Solution |
 | :--- | :--- |
 | **CBQ Paralysis** | **CBQ-Engine** — 50% of the paper is case-based. Dedicated training on decoding passage-based questions. |
 | **Map Marking Errors** | `/map-quiz` — Interactive Geography map identification drill for 5 free marks. |
@@ -192,7 +192,8 @@ The `Prasanna/` directory is an Obsidian-compatible knowledge graph for Class 10
 
 <br />
 
-[![Back to Root](https://img.shields.io/badge/🏠_Back_to_Root-ECC_Home-2D3A6E?style=for-the-badge)](../README.md)
+[![Back to Root](https://img.shields.io/badge/🏠_Back_to_Root-ECB_Home-2D3A6E?style=for-the-badge)](../README.md)
 [![Chinese Version](https://img.shields.io/badge/📖_中文文档-README_zh-red?style=for-the-badge)](../README_zh.md)
 
 </div>
+

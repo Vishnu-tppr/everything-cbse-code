@@ -1,7 +1,7 @@
 {
-  "name": "cbse-12th-mcp",
+  "name": "cbse-10th-ecb-mcp",
   "version": "1.0.0",
-  "description": "MCP Server for CBSE 12th Grade Ecosystem (PCMB/PCMC)",
+  "description": "MCP server exposing the CBSE Grade 10 preparation ecosystem to Claude Desktop",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "zod": "^3.24.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "typescript": "^5.8.0"
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0"
   }
 }

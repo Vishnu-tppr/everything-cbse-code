@@ -26,7 +26,7 @@ tags: [sst, geography]
 | Soil | Color | Found In | Crops |
 |------|-------|----------|-------|
 | Alluvial | Light | Indo-Gangetic plain, deltas | Rice, wheat, sugarcane |
-| Black (Regur) | Black | Deccan (Maharashtra, Gujarat) | Cotton |
+| Black (Regur) | Black | DECBan (Maharashtra, Gujarat) | Cotton |
 | Red & Yellow | Red | Odisha, Chhattisgarh, S. Plateau | Millets |
 | Laterite | Reddish | Western Ghats, NE | Tea, coffee, cashew |
 | Arid | Sandy | Rajasthan, Gujarat | Drought-resistant crops |
@@ -50,3 +50,4 @@ tags: [sst, geography]
 - [[G-Map Work]] — soil distribution
 
 #chapter #geography
+

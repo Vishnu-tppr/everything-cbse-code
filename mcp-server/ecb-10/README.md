@@ -27,7 +27,7 @@ Open **PowerShell** and run these one by one:
 
 ```powershell
 # Step 1: Go to the MCP server folder
-cd D:\everything-cbse-code\mcp-server\ecc-10
+cd D:\everything-cbse-board\mcp-server\ECB-10
 
 # Step 2: Install dependencies (only needed once)
 npm install
@@ -58,9 +58,9 @@ Open `claude_desktop_config.json` in Notepad and set it to:
 ```json
 {
   "mcpServers": {
-    "ecc-10": {
+    "ECB-10": {
       "command": "node",
-      "args": ["D:\\everything-cbse-code\\mcp-server\\ecc-10\\dist\\index.js"]
+      "args": ["D:\\everything-cbse-board\\mcp-server\\ECB-10\\dist\\index.js"]
     }
   }
 }
@@ -81,37 +81,37 @@ Open `claude_desktop_config.json` in Notepad and set it to:
 
 ### 📚 Study & Practice
 ```
-Use ecc-10: get the mathematics skill and explain Polynomials step by step
+Use ECB-10: get the mathematics skill and explain Polynomials step by step
 ```
 ```
-Use ecc-10: load the examiner agent and run the practice command for Science/Physics, chapter Electricity, 5 hard questions
+Use ECB-10: load the examiner agent and run the practice command for Science/Physics, chapter Electricity, 5 hard questions
 ```
 ```
-Use ecc-10: get the cbq-engine skill and give me 3 CBQ practice questions on Carbon Compounds
+Use ECB-10: get the cbq-engine skill and give me 3 CBQ practice questions on Carbon Compounds
 ```
 
 ### ✍️ Answer Practice
 ```
-Use ecc-10: load the evaluator agent and run mark-my-answer — question: [paste your question], my answer: [paste your answer]
+Use ECB-10: load the evaluator agent and run mark-my-answer — question: [paste your question], my answer: [paste your answer]
 ```
 ```
-Use ecc-10: get the topper-patterns skill and show me how to write a perfect 5-mark Science answer
+Use ECB-10: get the topper-patterns skill and show me how to write a perfect 5-mark Science answer
 ```
 
 ### 📅 Planning & Revision
 ```
-Use ecc-10: load the planner agent and build a revision plan — exam is March 15, weak chapters: Heredity, Carbon Compounds, Globalisation
+Use ECB-10: load the planner agent and build a revision plan — exam is March 15, weak chapters: Heredity, Carbon Compounds, Globalisation
 ```
 ```
-Use ecc-10: get All Formulas hub and quiz me on Physics formulas
+Use ECB-10: get All Formulas hub and quiz me on Physics formulas
 ```
 
 ### 🔍 Search & Explore
 ```
-Use ecc-10: search for "Ohm's law" across everything and explain what you find
+Use ECB-10: search for "Ohm's law" across everything and explain what you find
 ```
 ```
-Use ecc-10: load my Math notes on Polynomials and the keyword-bank skill, then quiz me
+Use ECB-10: load my Math notes on Polynomials and the keyword-bank skill, then quiz me
 ```
 
 ---
@@ -190,3 +190,4 @@ src/
     ├── notes.ts      ← get_chapter_notes, get_hub
     └── search.ts     ← full-text search
 ```
+

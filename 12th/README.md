@@ -1,4 +1,4 @@
-# 📙 Grade 12 Senior Boards Ecosystem (ECC-12)
+# 📙 Grade 12 Senior Boards Ecosystem (ECB-12)
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 
 <br />
 
-<img src="../assets/everything_cbse_hero_1776840974301.png" alt="ECC 12th — Senior Board Exam Command Center" width="600" />
+<img src="../assets/everything_cbse_board_hero.png" alt="ECB 12th — Senior Board Exam Command Center" width="600" />
 
 <br />
 
@@ -26,11 +26,11 @@
 <a name="the-senior-advantage"></a>
 ## 💎 The Senior Advantage (PCMB/PCMC)
 
-Grade 12 isn't just about knowledge—it's about **derivation mastery, numerical precision, and entrance-aligned board prep**. ECC-12 is specifically tuned for the Senior Board Exam DNA, bridging the gap between raw NCERT and the rigorous demands of CBSE evaluation.
+Grade 12 isn't just about knowledge—it's about **derivation mastery, numerical precision, and entrance-aligned board prep**. ECB-12 is specifically tuned for the Senior Board Exam DNA, bridging the gap between raw NCERT and the rigorous demands of CBSE evaluation.
 
-### Why ECC-12?
+### Why ECB-12?
 
-| The Senior Challenge | ECC-12 Solution |
+| The Senior Challenge | ECB-12 Solution |
 | :--- | :--- |
 | **Derivation Fatigue** | `/derivation-drill` — Random derivation generator with step-by-step logic checking. |
 | **Numerical Accuracy** | **Math-Step-Evaluator** — Grades partial steps in Calculus and 3D Geometry. |
@@ -208,7 +208,8 @@ The `Prasanna-12/` directory is an Obsidian-compatible knowledge graph. It’s n
 
 <br />
 
-[![Back to Root](https://img.shields.io/badge/🏠_Back_to_Root-ECC_Home-2D3A6E?style=for-the-badge)](../README.md)
+[![Back to Root](https://img.shields.io/badge/🏠_Back_to_Root-ECB_Home-2D3A6E?style=for-the-badge)](../README.md)
 [![Chinese Version](https://img.shields.io/badge/📖_中文文档-README_zh-red?style=for-the-badge)](../README_zh.md)
 
 </div>
+

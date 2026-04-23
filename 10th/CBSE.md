@@ -6,11 +6,11 @@ description: >-
 
 # CBSE Tools — Board Exam Preparation System
 
-CBSE Tools is a structured, ECC-style (Everything Claude Code) skill/agent/command ecosystem designed for CBSE Grade 10 Board Exam preparation. It provides AI-powered tutoring, question generation, answer evaluation, revision planning, and exam strategy — all aligned with the official CBSE 2026–27 syllabus. The target: **495+ out of 500**.
+CBSE Tools is a structured, ECB-style (Everything Claude Code) skill/agent/command ecosystem designed for CBSE Grade 10 Board Exam preparation. It provides AI-powered tutoring, question generation, answer evaluation, revision planning, and exam strategy — all aligned with the official CBSE 2026–27 syllabus. The target: **495+ out of 500**.
 
 ## Autonomous Operation
 
-This system operates autonomously — just like ECC. You don't need to manually invoke agents or load skills. The system:
+This system operates autonomously — just like ECB. You don't need to manually invoke agents or load skills. The system:
 
 1. **Auto-detects the subject** from your question (keywords, chapter names, concepts)
 2. **Auto-loads the right skill** (formulas, facts, marking schemes from SKILL.md files)
@@ -264,3 +264,4 @@ Student Input
 - Add `/neet-practice`, `/neet-mock` commands
 - Add NEET PYQ agent
 - Integrate MTG, Trueman's Biology, OP Tandon Chemistry
+

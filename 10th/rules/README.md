@@ -6,7 +6,7 @@ description: >-
 
 # CBSE Tools — Rules
 
-This directory contains always-active rules that fire on every interaction. These are the equivalent of ECC's `rules/common/` — they ensure consistent behavior across all CBSE Tools interactions.
+This directory contains always-active rules that fire on every interaction. These are the equivalent of ECB's `rules/common/` — they ensure consistent behavior across all CBSE Tools interactions.
 
 ## Rule Files
 
@@ -17,3 +17,4 @@ This directory contains always-active rules that fire on every interaction. Thes
 | `answer-format.md` | Board exam answer structure enforcement |
 | `subject-detection.md` | Auto-detect subject and load correct skill |
 | `agent-chaining.md` | Autonomous agent-to-agent triggers |
+
