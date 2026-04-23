@@ -1,4 +1,4 @@
-# 🎓 Everything CBSE Code (ECB)
+# 🎓 Everything CBSE Board (ECB)
 
 <div align="center">
 
