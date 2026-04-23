@@ -1,31 +1,49 @@
-# CBSE 12th Grade MCP Server
+# 🎓 ECC MCP Servers
 
-This server provides a bridge between Claude Desktop and the CBSE Grade 12 Board Preparation ecosystem.
+This directory contains the Model Context Protocol (MCP) servers for the unified ECC ecosystem. Each grade level has its own dedicated server to provide a specialized experience.
 
-## Features
-- **Skills Resource**: Browse 40+ subject and strategy skills.
-- **Agents Resource**: Activate senior examiner or tutor personas.
-- **Notes Resource**: Search and read personal chapter notes from the `Prasanna-12` vault.
-- **Master Index**: Quick access to the system map.
+## 📁 Structure
 
-## Installation for Claude Desktop
+- [**ecc-10/**](./ecc-10/) — MCP server for Grade 10 Board preparation.
+- [**ecc-12/**](./ecc-12/) — MCP server for Grade 12 Board preparation.
 
-Add the following to your `claude_desktop_config.json`:
+## 🔗 Connection to Claude Desktop
+
+To use these tools in Claude Desktop, add both to your `claude_desktop_config.json` file.
+
+### Find the config file
+Press `Win + R`, paste `%APPDATA%\Claude`, and hit Enter. Look for `claude_desktop_config.json`.
+
+### Add the servers
+Add the following to the `mcpServers` object (ensure you use your absolute path):
 
 ```json
 {
   "mcpServers": {
-    "cbse-12-tools": {
+    "cbse-10th": {
       "command": "node",
-      "args": [
-        "d:/Ai-skills/cbse-12th-tools/mcp-server/dist/index.js"
-      ]
+      "args": ["D:/everything-cbse-code/mcp-server/ecc-10/dist/index.js"]
+    },
+    "cbse-12th": {
+      "command": "node",
+      "args": ["D:/everything-cbse-code/mcp-server/ecc-12/dist/index.js"]
     }
   }
 }
 ```
 
-## Build Instructions
-1. `cd mcp-server`
-2. `npm install`
-3. `npm run build`
+## 🛠️ Build Instructions
+
+Before running the servers for the first time, you must build them:
+
+```powershell
+# For 10th Grade
+cd mcp-server/ecc-10
+npm install
+npm run build
+
+# For 12th Grade
+cd ../ecc-12
+npm install
+npm run build
+```

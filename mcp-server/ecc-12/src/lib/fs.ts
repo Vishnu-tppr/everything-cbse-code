@@ -2,18 +2,19 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+// Resolve REPO_ROOT: everything-cbse-code/mcp-server/cbse-12th/src/lib/fs.ts → up 4 levels, then into 12th/
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-export const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');
+export const REPO_ROOT = path.resolve(__dirname, '..', '..', '..', '..', '12th');
 
-// Validate marker files for both 10th and 12th
-const marker10 = path.join(REPO_ROOT, '10th', 'CBSE.md');
-const marker12 = path.join(REPO_ROOT, '12th', 'CBSE12.md');
-
-if (!fs.existsSync(marker10) || !fs.existsSync(marker12)) {
+// Validate marker file
+const markerFile = path.join(REPO_ROOT, 'CBSE12.md');
+if (!fs.existsSync(markerFile)) {
   process.stderr.write(
-    `[everything-cbse-code] FATAL: Unified repo root does not contain 10th/CBSE.md or 12th/CBSE12.md.\n` +
-    `  Resolved REPO_ROOT to: ${REPO_ROOT}\n`
+    `[cbse-12th-mcp] FATAL: REPO_ROOT does not contain CBSE12.md.\n` +
+    `  Resolved to: ${REPO_ROOT}\n` +
+    `  Expected marker file: ${markerFile}\n` +
+    `  Fix: ensure mcp-server/cbse-12th is inside everything-cbse-code/mcp-server/\n`
   );
   process.exit(1);
 }

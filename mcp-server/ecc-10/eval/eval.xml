@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  cbse-tools-mcp Evaluation Suite
+  Each question requires 2+ tool calls to answer correctly.
+  Answers verified against actual repo content on 2026-04-21.
+-->
+<evaluation>
+
+  <!-- Q1: CBQ percentage — requires get_skill("cbq-engine") + get_rules("answer-format") -->
+  <qa_pair>
+    <question>According to the cbq-engine skill, what percentage of the CBSE board paper do CBQ questions constitute, and how many marks out of 80 does that represent?</question>
+    <answer>50% of the board paper, which is 40 out of 80 marks.</answer>
+    <tools_needed>get_skill("cbq-engine"), get_rules("answer-format")</tools_needed>
+  </qa_pair>
+
+  <!-- Q2: Tutor teaching method — requires get_agent("tutor") + get_cbse_index -->
+  <qa_pair>
+    <question>What teaching method does the tutor agent use, and what is its primary goal according to the agent definition?</question>
+    <answer>The tutor uses the Socratic method — it never gives answers directly, asks guiding questions, and uses CBSE-aligned examples. Its goal is to help students deeply understand concepts, NOT just memorize answers.</answer>
+    <tools_needed>get_agent("tutor"), get_cbse_index</tools_needed>
+  </qa_pair>
+
+  <!-- Q3: Word budget for 2M answers — requires get_rules("word-budget") + get_skill("answer-writing") -->
+  <qa_pair>
+    <question>According to the word-budget rule, how many words should a 2-mark answer be, and how many sentences is that?</question>
+    <answer>30-40 words, which is 3-4 sentences. The format should be Definition + Application.</answer>
+    <tools_needed>get_rules("word-budget"), get_skill("answer-writing")</tools_needed>
+  </qa_pair>
+
+  <!-- Q4: Math chapter count — requires get_chapter_notes({subject:"math"}) + list_all({category:"notes"}) -->
+  <qa_pair>
+    <question>How many personal Math chapter notes does Prasanna have, and what is the first and last chapter?</question>
+    <answer>14 notes. First: Ch01 - Real Numbers. Last: Ch14 - Probability.</answer>
+    <tools_needed>get_chapter_notes({subject:"math"}), list_all({category:"notes"})</tools_needed>
+  </qa_pair>
+
+  <!-- Q5: Practice command params — requires get_command("practice") + get_agent("examiner") -->
+  <qa_pair>
+    <question>What are the required parameters for the /practice command, and which agent does it chain to?</question>
+    <answer>Required parameter: subject. Optional: chapter, difficulty, count. It chains to the examiner agent.</answer>
+    <tools_needed>get_command("practice"), get_agent("examiner")</tools_needed>
+  </qa_pair>
+
+  <!-- Q6: Evaluator marking method — requires get_agent("evaluator") + get_skill("answer-writing") -->
+  <qa_pair>
+    <question>How does the evaluator agent mark answers? What scoring system does it use?</question>
+    <answer>The evaluator marks using the CBSE value-point marking scheme — it checks for specific keywords, steps, or concepts that carry marks. It gives marks awarded, step-wise breakdown, keywords missed, and improvement suggestions.</answer>
+    <tools_needed>get_agent("evaluator"), get_skill("answer-writing")</tools_needed>
+  </qa_pair>
+
+  <!-- Q7: Search + skill fetch — requires search("assertion reason") + get_skill("assertion-reason") -->
+  <qa_pair>
+    <question>Search for "assertion reason" across the ecosystem. Which skill file contains it, and what does that skill teach?</question>
+    <answer>The skill file is assertion-reason (skills/assertion-reason/SKILL.md). It teaches the Assertion-Reason question format used in CBSE board exams.</answer>
+    <tools_needed>search({query:"assertion reason"}), get_skill("assertion-reason")</tools_needed>
+  </qa_pair>
+
+  <!-- Q8: Formula sheet purpose — requires get_skill("formula-sheet") + get_hub("All Formulas") -->
+  <qa_pair>
+    <question>What does the formula-sheet skill description say about its importance, and does Prasanna have a personal "All Formulas" hub file?</question>
+    <answer>The formula-sheet skill says it contains ALL formulas across Math and Science in one file and is "the single most important revision resource — students who memorize these formulas can attempt ANY numerical." Yes, Prasanna has an "All Formulas" hub file in his Obsidian vault.</answer>
+    <tools_needed>get_skill("formula-sheet"), get_hub("All Formulas")</tools_needed>
+  </qa_pair>
+
+  <!-- Q9: Agent count + skill count — requires list_all({category:"agents"}) + list_all({category:"skills"}) -->
+  <qa_pair>
+    <question>How many agents and how many skills are in the CBSE ecosystem? Name all 7 agents.</question>
+    <answer>7 agents and 49 skills. The agents are: tutor, examiner, evaluator, math-step-evaluator, case-builder, planner, weak-spotter.</answer>
+    <tools_needed>list_all({category:"agents"}), list_all({category:"skills"})</tools_needed>
+  </qa_pair>
+
+  <!-- Q10: Cross-domain — requires get_skill("topper-patterns") + run_command("practice", {subject:"mathematics",...}) -->
+  <qa_pair>
+    <question>According to the topper-patterns skill, why do toppers score 99-100? Then generate a practice session for Mathematics, Polynomials chapter, hard difficulty, 5 questions.</question>
+    <answer>Toppers score 99-100 because they PRESENT better, not because they know more. They use structural frameworks that teach HOW to format answers for maximum marks. The practice command would chain to the examiner agent to generate 5 hard questions on Polynomials.</answer>
+    <tools_needed>get_skill("topper-patterns"), run_command({command:"practice", params:{subject:"mathematics", chapter:"Polynomials", difficulty:"hard", count:"5"}})</tools_needed>
+  </qa_pair>
+
+</evaluation>

@@ -78,3 +78,9 @@ artifacts/
 claude-ai-upload/
 *.zip
 *.tar.gz
+
+# MCP Server Artifacts
+mcp-server/**/dist/
+mcp-server/**/node_modules/
+mcp-server/**/*.log
+mcp-server/**/*.tsbuildinfo
